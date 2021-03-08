@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="UpdateBooking">
+        <methods>
+          <include name="updateBooking"/>
+        </methods>
+      </class> <!-- UpdateBooking -->
+      <class name="CreateBooking">
+        <methods>
+          <include name="createNewBooking" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CreateBooking -->
+      <class name="GetBooking">
+        <methods>
+          <include name="getBookingIDs" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- GetBooking -->
+      <class name="PartialUpdateBooking">
+        <methods>
+          <include name="updateBooking"/>
+        </methods>
+      </class> <!-- PartialUpdateBooking -->
+      <class name="DeleteBooking">
+        <methods>
+          <include name="getBookingIDs"/>
+        </methods>
+      </class> <!-- DeleteBooking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

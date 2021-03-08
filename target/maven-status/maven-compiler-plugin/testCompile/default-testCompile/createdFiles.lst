@@ -1,0 +1,6 @@
+AuthToken.class
+GetBooking.class
+PartialUpdateBooking.class
+DeleteBooking.class
+CreateBooking.class
+UpdateBooking.class
